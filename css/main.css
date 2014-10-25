@@ -4,11 +4,11 @@ Member: Duncan 'Webantix' Alderson
 */
 
 /* Global Styles */
-*       { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important; }
-body    {text-rendering:optimizeLegibility;color:#333;margin:0;padding:0;background-color:#F1F1F1;position:relative;word-wrap:break-word;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased}
+* 			  { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important; }
+body 	  	{text-rendering:optimizeLegibility;color:#333;margin:0;padding:0;background-color:#F1F1F1; word-wrap:break-word;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased}
 #header   {background-color: #0088CC; height: 140px;}
-#nav-cont {padding-left: 0;}
-#pag-cont {padding: 5px 15px; width: 100%;}
+#nav-cont	{padding-left: 0;}
+#pag-cont	{padding: 5px 15px; width: 100%;}
 
 /* Desktops and laptops ----------- */
 @media (min-width:768px) {
@@ -52,11 +52,16 @@ body    {text-rendering:optimizeLegibility;color:#333;margin:0;padding:0;backgro
 @media (max-width: 768px) { 
 
   /* Header */
- 
+  #header   {background-color: #0088CC; height: 120px;}
+  #whitebar {background-color: #FFFFFF; height: 78px; border-bottom:1px solid #adb2b7;}
+  #logo     {margin:0 auto;}
+  #logo h1  {margin-top: 0px;}
+  #social   {color: #FFFFFF; float:right; margin: -10% 20px;}
+  #social .fa   {padding: 3px;}
   
   /* Content Containers */
   #nav-cont { padding-left: 0px;}
-  #pag-cont { padding: 140px 25px; }
+  #pag-cont { padding: 20px 25px; }
   #pag-cont h1 {color: #0088CC; border-bottom: 1px solid #adb2b7; font-size: 20px}
   #pag-cont h2 {color: #0088CC; font-size: 16px;}
   #pag-cont .row {margin:20px 0 0 0 ;}
