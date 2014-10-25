@@ -1,0 +1,160 @@
+/* 
+Author: Shadowserver Foundation - https://www.shadowserver.org/
+Member: Duncan 'Webantix' Alderson
+*/
+
+
+/* Global Styles */
+* 			{ -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important; }
+body 		{text-rendering:optimizeLegibility;color:#333;margin:0;padding:0;background-color:#F1F1F1;position:relative;word-wrap:break-word;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased}
+
+#header		{background-color: #0088CC; height: 140px;}
+#nav-cont	{padding-left: 0;}
+#pag-cont	{padding: 5px 15px; width: 100%;}
+
+
+
+/* Edit Below to Customize Widths > 768px */
+@media (min-width:768px) {
+
+  /* Header */
+  #header		{background-color: #0088CC; height: 150px;}
+  #whitebar	{background-color: #FFFFFF; height: 82px; border-bottom:1px solid #adb2b7;}
+  #logo 	{float:left;}
+  #logo h1	{margin-top: 4px; margin-left: 20px;}
+  #social 	{float:right; margin: 20px 20px;}
+  #social .fa 	{padding: 3px;}
+  
+  /* Content Containers */
+  #nav-cont { padding-left: 225px;}
+  #pag-cont { padding: 15px 25px;}
+  #pag-cont h1 {color: #0088CC; border-bottom: 1px solid #adb2b7; font-size: 20px}
+  #pag-cont h2 {color: #0088CC; font-size: 16px;}
+  #pag-cont .row {margin:20px 0 0 0 ;}
+  #pag-cont .col-lg-12 {border: 1px solid #adb2b7; background-color: #fff}
+
+  /* Side Nav */
+
+  .side-nav {
+	margin-left: -225px;
+	left: 225px;
+	width: 225px;
+	position: fixed;
+	top: 150px;
+	height: 100%;
+	border-radius: 0;
+	border: none;
+	background-color: #323232;
+	overflow-y: auto;
+  }
+
+  /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+  .side-nav>li.dropdown>ul.dropdown-menu {
+	position: relative;
+	min-width: 225px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+	color: #999999;
+	padding: 15px 15px 15px 25px;
+  }
+
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+  .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+	color: #fff;
+	background-color: #080808;
+  }
+
+  .side-nav>li>a {
+	width: 225px;
+  }
+
+  .navbar-inverse .navbar-nav>li>a:hover,
+  .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: #080808;
+  }
+
+  /* Nav Messages */
+
+  .messages-dropdown .dropdown-menu {
+	min-width: 300px;
+  }
+
+  .messages-dropdown .dropdown-menu li a {
+	white-space: normal;
+  }
+
+  .navbar-collapse {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+} /* end responsive style */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
