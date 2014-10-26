@@ -16,6 +16,7 @@ body      {text-rendering:optimizeLegibility; color:#333; margin:0; padding:0; b
 .navbar-fixed-top {border: 0;  background-color: #0088CC;}
 .navbar-brand   {padding: 0;}
 .navbar-inverse .navbar-toggle {border: 0px; }
+.breadcrumb {background-color: #FFF;}
 
 /* Hide sidebar for all mobile screens, show later */
 .sidebar {
@@ -48,7 +49,7 @@ body {padding-top: 165px}
 .navbar-fixed-top {border: 0;  
 background: #ffffff; /* Old browsers */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,#FFF), color-stop(55%,#ADB2B8),color-stop(57%,#0088cc), color-stop(100%,#0088cc)); /* Chrome,Safari4+ */}
-#pag-cont {padding-left: 250px;}
+#pag-cont {padding-left: 250px; padding-right: 25px;}
 
 }
 
@@ -83,6 +84,7 @@ background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,#FFF)
     top: 130px;
     bottom: 0;
     left: 0;
+    width: 225px;
     z-index: 1000;
     display: block;
     padding: 20px;
