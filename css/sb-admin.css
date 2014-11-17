@@ -38,13 +38,57 @@ h2  {color: #0088CC; font-size: 16px;}
     background-color:#323232 ;
 }
 
+/* Mobile Portrait */
+@media(max-width: 768px)  {
+.navbar-inverse {background-color: #fff; border-bottom: 20px solid #0088CC; }
+.navbar-fixed-top {padding-bottom: 0px;}
+.navbar-brand {padding: 0px 5px;}
+.icon-bar {color: red;}
 
+.navbar-inverse .navbar-toggle .icon-bar {background-color: #0088CC; border:none;}
+.navbar-fixed-top: {padding-bottom: 1px; color: red;}
+#page-wrapper   {width: 100%; padding: 90px 10px; background-color: #f1f1f1;}
+
+img{ width:251px;}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop & Tablets */
 @media(min-width:768px) {
 body {margin-top: 50px; }
 }
 
 #wrapper        {padding-left: 0;}
-#page-wrapper   {width: 100%; padding: 84px 10px; background-color: #f1f1f1;}
+
 
 .huge           {font-size: 50px; line-height: normal;}
 
@@ -144,7 +188,7 @@ ul.alert-dropdown {
 }
 
 .side-nav>li>ul>li>a:hover {
-    color: #0088CC;
+    color: #fff;
 }
 
 /* Flot Chart Containers */
