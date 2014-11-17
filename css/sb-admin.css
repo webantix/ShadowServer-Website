@@ -39,7 +39,7 @@ h2  {color: #0088CC; font-size: 16px;}
 }
 
 /* Mobile Portrait */
-@media(max-width: 768px)  {
+@media(max-width: 767px)  {
 .navbar-inverse {background-color: #fff; border-bottom: 20px solid #0088CC; }
 .navbar-fixed-top {padding-bottom: 0px;}
 .navbar-brand {padding: 0px 5px;}
