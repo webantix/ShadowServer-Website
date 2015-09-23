@@ -10,8 +10,8 @@ body      {text-rendering:optimizeLegibility; color:#333; margin:0; padding:0; b
 h1    {color: #0088CC; border-bottom: 1px solid #adb2b7; font-size: 20px; margin-top: 5px;}
 h2  {color: #0088CC; font-size: 16px;}
 
-.navbar-inverse {background-color: #fff; border-bottom: 30px solid #0088CC; }
-.navbar-fixed-top {padding-bottom: 32px;}
+.navbar-inverse {background-color: #960000; background: url(../img/bg.svg); background-size: cover; padding: 10px solid #960000; }
+.navbar-fixed-top {padding: 25px 0 54px 0;}
 .navbar-collapse {border: none;}
 .navbar-brand {padding: 0px 40px;}
 .breadcrumb {background-color: #FFF;}
@@ -37,6 +37,8 @@ h2  {color: #0088CC; font-size: 16px;}
     color: #0088CC;
     background-color:#323232 ;
 }
+
+#wrapper        {padding-left: 0;}
 
 /* Mobile Portrait */
 @media(max-width: 767px)  {
@@ -87,7 +89,7 @@ img{ width:251px;}
 body {margin-top: 50px; }
 }
 
-#wrapper        {padding-left: 0;}
+
 
 
 .huge           {font-size: 50px; line-height: normal;}

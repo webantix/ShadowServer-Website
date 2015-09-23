@@ -5,7 +5,7 @@ Member: Duncan 'Webantix' Alderson
 
 /* Global Styles */
 *         { -webkit-border-radius: 0 !important; -moz-border-radius: 0 !important; border-radius: 0 !important; }
-body      {text-rendering:optimizeLegibility; color:#333; margin:0; padding:0; background-color:#F1F1F1; word-wrap:break-word;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased}
+body      {text-rendering:optimizeLegibility; color:#333; margin:0; padding:0; background: url(/img/bg.svg); word-wrap:break-word;-webkit-text-size-adjust:none;-webkit-font-smoothing:antialiased}
 #nav-cont {padding-left: 0;}
 #pag-cont {padding: 5px 15px; width: 100%;}
 #pag-cont h1    {color: #0088CC; border-bottom: 1px solid #adb2b7; font-size: 20px}
@@ -32,8 +32,8 @@ body {padding-top: 165px}
 .navbar-nav  {display: none;}
 .navbar-brand   {padding: 5px 20px;}
 .navbar-fixed-top {border: 0;  
-background: #ffffff; /* Old browsers */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,#FFF), color-stop(55%,#ADB2B8),color-stop(57%,#0088cc), color-stop(100%,#0088cc)); /* Chrome,Safari4+ */}
+background: #960000; /* Old browsers */
+
 #pag-cont {padding-left: 250px; padding-right: 25px;}
   .sidebar {
     position: fixed;
